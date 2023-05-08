@@ -158,8 +158,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/snapshot/44/snapshot-44.0.tar.xz",
-                    "sha256": "9a2844fd046fb35aaec2f18db67190de4dcc07327722fd4be9c0ad6f3da85291",
+                    "url": "https://download.gnome.org/sources/snapshot/44/snapshot-44.1.tar.xz",
+                    "sha256": "8eb91623722cec2dde90d9312ea9dfde08a0d4eb37829312d1d086f20b67e7ee",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "snapshot"
