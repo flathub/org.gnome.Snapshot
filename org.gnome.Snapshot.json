@@ -41,15 +41,15 @@
                 "-Dvapi=false",
                 "-Dtests=false",
                 "-Dexamples=false"
-           ],
-           "sources": [
+            ],
+            "sources": [
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/libadwaita.git",
                     "commit": "421c3cc35bb50fe4ea40b7fb3bce894f7cae7cff"
                 }
-           ],
-           "modules": [
+            ],
+            "modules": [
                 {
                     "name": "appstream",
                     "buildsystem": "meson",
@@ -145,8 +145,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://download.gnome.org/sources/gtk/4.11/gtk-4.11.2.tar.xz",
-                            "sha256": "4a481da6b65b6add3f59966b0bb27e8139c381d0699402df662df2ce1c9e6913",
+                            "url": "https://download.gnome.org/sources/gtk/4.10/gtk-4.10.3.tar.xz",
+                            "sha256": "4545441ad79e377eb6e0a705026dc7a46886e46a1b034db40912909da801cea9",
                             "x-checker-data": {
                                 "type": "gnome",
                                 "name": "gtk"
