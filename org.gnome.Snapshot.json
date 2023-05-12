@@ -144,9 +144,13 @@
                     ],
                     "sources": [
                         {
-                            "type": "git",
-                            "url": "https://gitlab.gnome.org/GNOME/gtk.git",
-                            "commit": "9ae0a3865c36dbbc356807d820fe5af7c66fe1e7"
+                            "type": "archive",
+                            "url": "https://download.gnome.org/sources/gtk/4.11/gtk-4.11.2.tar.xz",
+                            "sha256": "4a481da6b65b6add3f59966b0bb27e8139c381d0699402df662df2ce1c9e6913",
+                            "x-checker-data": {
+                                "type": "gnome",
+                                "name": "gtk"
+                            }
                         }
                     ]
                 }
