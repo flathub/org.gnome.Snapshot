@@ -46,7 +46,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/libadwaita.git",
-                    "commit": "421c3cc35bb50fe4ea40b7fb3bce894f7cae7cff"
+                    "commit": "f0dd780a40707044edc45fc4c6129e4c88fe2d38"
                 }
            ],
            "modules": [
@@ -162,8 +162,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/snapshot/44/snapshot-44.1.tar.xz",
-                    "sha256": "8eb91623722cec2dde90d9312ea9dfde08a0d4eb37829312d1d086f20b67e7ee",
+                    "url": "https://download.gnome.org/sources/snapshot/44/snapshot-44.2.tar.xz",
+                    "sha256": "f694bf272958d430c874227eb26018c481ab9e80ca8fd8cb0b32081cf7b5b931",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "snapshot"
