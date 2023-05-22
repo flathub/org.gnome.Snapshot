@@ -46,7 +46,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/libadwaita.git",
-                    "commit": "421c3cc35bb50fe4ea40b7fb3bce894f7cae7cff"
+                    "commit": "a97fa1541229271610ce47a4a1dcea4c0340b84c"
                 }
            ],
            "modules": [
@@ -144,13 +144,9 @@
                     ],
                     "sources": [
                         {
-                            "type": "archive",
-                            "url": "https://download.gnome.org/sources/gtk/4.11/gtk-4.11.2.tar.xz",
-                            "sha256": "4a481da6b65b6add3f59966b0bb27e8139c381d0699402df662df2ce1c9e6913",
-                            "x-checker-data": {
-                                "type": "gnome",
-                                "name": "gtk"
-                            }
+                            "type": "git",
+                            "url": "https://gitlab.gnome.org/GNOME/gtk.git",
+                            "commit": "10825cdc720d15c4185c8d7c3ce180f227498c94"
                         }
                     ]
                 }
@@ -162,8 +158,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/snapshot/44/snapshot-44.1.tar.xz",
-                    "sha256": "8eb91623722cec2dde90d9312ea9dfde08a0d4eb37829312d1d086f20b67e7ee",
+                    "url": "https://download.gnome.org/sources/snapshot/44/snapshot-44.2.tar.xz",
+                    "sha256": "f694bf272958d430c874227eb26018c481ab9e80ca8fd8cb0b32081cf7b5b931",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "snapshot"
