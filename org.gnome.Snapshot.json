@@ -177,7 +177,8 @@
                     "sha256": "f9f87a69d9db7d60486ff0adde229e765e497b3ae667c761dddb2be99457640c",
                     "x-checker-data": {
                         "type": "gnome",
-                        "name": "snapshot"
+                        "name": "snapshot",
+                        "stable-only": false
                     }
                 }
             ]
