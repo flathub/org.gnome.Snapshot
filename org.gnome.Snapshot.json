@@ -45,7 +45,7 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org//sources/libadwaita/1.4/libadwaita-1.4.alpha.tar.xz",
+                    "url": "https://download.gnome.org/sources/libadwaita/1.4/libadwaita-1.4.alpha.tar.xz",
                     "sha256": "b1b3e8d02d93050704b9913cca378b922ac4d9d56c1247412000cbbcf1263444",
                     "x-checker-data": {
                         "type": "gnome",
@@ -155,8 +155,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://download.gnome.org//sources/gtk/4.11/gtk-4.11.3.tar.xz",
-                            "sha256": "22b9b21a13b205d4f430b9d73a0d216f133047cf638a2563fcd9297a4b39eb00",
+                            "url": "https://download.gnome.org/sources/gtk/4.11/gtk-4.11.4.tar.xz",
+                            "sha256": "8d2762b1679c5e1910a5c042aa5671f9c1b9e37da8fa41a7dfe44d124b19c9e8",
                             "x-checker-data": {
                                 "type": "gnome",
                                 "name": "gtk",
@@ -173,8 +173,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/snapshot/45/snapshot-45.alpha.tar.xz",
-                    "sha256": "f9f87a69d9db7d60486ff0adde229e765e497b3ae667c761dddb2be99457640c",
+                    "url": "https://download.gnome.org/sources/snapshot/44/snapshot-44.2.tar.xz",
+                    "sha256": "f694bf272958d430c874227eb26018c481ab9e80ca8fd8cb0b32081cf7b5b931",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "snapshot"
