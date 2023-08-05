@@ -45,8 +45,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/libadwaita/1.4/libadwaita-1.4.alpha.tar.xz",
-                    "sha256": "b1b3e8d02d93050704b9913cca378b922ac4d9d56c1247412000cbbcf1263444",
+                    "url": "https://download.gnome.org/sources/libadwaita/1.4/libadwaita-1.4.beta.tar.xz",
+                    "sha256": "5b6a0e51fd7b6273564ce937a9d302ca683e61f05791b09a36a881d3952128a4",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "libadwaita",
