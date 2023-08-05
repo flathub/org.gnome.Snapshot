@@ -155,8 +155,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://download.gnome.org/sources/gtk/4.11/gtk-4.11.4.tar.xz",
-                            "sha256": "8d2762b1679c5e1910a5c042aa5671f9c1b9e37da8fa41a7dfe44d124b19c9e8",
+                            "url": "https://download.gnome.org/sources/gtk/4.12/gtk-4.12.0.tar.xz",
+                            "sha256": "a6d10829f405b1afc0b65e2a9642c04126a1d1b638d11c6d97426da4f84f1f6f",
                             "x-checker-data": {
                                 "type": "gnome",
                                 "name": "gtk",
@@ -173,8 +173,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/snapshot/45/snapshot-45.alpha.tar.xz",
-                    "sha256": "f9f87a69d9db7d60486ff0adde229e765e497b3ae667c761dddb2be99457640c",
+                    "url": "https://download.gnome.org/sources/snapshot/45/snapshot-45.beta.tar.xz",
+                    "sha256": "0f18b4e90a0b1f12f9a6a161df318167f9fcce8c56ee2596f9036cdb5a9f46f8",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "snapshot",
