@@ -173,8 +173,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/snapshot/45/snapshot-45.beta.tar.xz",
-                    "sha256": "0f18b4e90a0b1f12f9a6a161df318167f9fcce8c56ee2596f9036cdb5a9f46f8",
+                    "url": "https://download.gnome.org/sources/snapshot/45/snapshot-45.0.tar.xz",
+                    "sha256": "ee478ee090731a0b0824b66bb1746bd800dcbfe87ac8358499449af39cfcdb67",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "snapshot",
