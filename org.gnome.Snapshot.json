@@ -1,16 +1,16 @@
 {
     "id": "org.gnome.Snapshot",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "46",
+    "runtime-version": "47",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
-        "org.freedesktop.Sdk.Extension.rust-stable"
+        "org.freedesktop.Sdk.Extension.rust-stable",
+	"org.freedesktop.Sdk.Extension.llvm18"
     ],
     "command": "snapshot",
     "finish-args": [
         "--device=dri",
         "--filesystem=xdg-pictures/Camera:create",
-        "--filesystem=xdg-run/pipewire-0",
         "--filesystem=xdg-videos/Camera:create",
         "--share=ipc",
         "--socket=fallback-x11",
@@ -18,7 +18,7 @@
         "--socket=wayland"
     ],
     "build-options": {
-        "append-path": "/usr/lib/sdk/rust-stable/bin"
+        "append-path": "/usr/lib/sdk/rust-stable/bin:/usr/lib/sdk/llvm18/bin"
     },
     "cleanup": [
         "/include",
@@ -33,18 +33,36 @@
         "*.a"
     ],
     "modules": [
+	{
+	    "name": "glycin-loaders",
+	    "buildsystem": "meson",
+	    "config-opts": [
+                "-Dlibglycin=false",
+                "-Dtests=false"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.gnome.org/sources/glycin/glycin-1.1.1.tar.xz",
+		    "sha256": "560ee42167c1ed22826618e61d83e49140db5bf47a65a9ba8ece2cd73d2a4aa8",
+		    "x-checker-data": {
+			"type": "gnome",
+			"name": "glycin"
+		    }
+                }
+            ]
+	},
         {
             "name": "snapshot",
             "buildsystem": "meson",
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/snapshot/46/snapshot-46.3.tar.xz",
-                    "sha256": "45957a0415f454d63531491aa04795cee0ced4edddd5d8fa0d000f5ef0735b67",
+                    "url": "https://download.gnome.org/sources/snapshot/47/snapshot-47.0.1.tar.xz",
+                    "sha256": "62a7f10c9021ba2e49e7e68e7eb89ef540c09f2c7ddf77c205e542c9dae8ffb1",
                     "x-checker-data": {
                         "type": "gnome",
-                        "name": "snapshot",
-                        "stable-only": false
+                        "name": "snapshot"
                     }
                 }
             ]
