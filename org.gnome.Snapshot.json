@@ -47,7 +47,8 @@
                     "sha256": "41c72be1ec9ba55da90c82fc18573b742dff582b09afc37b4565c47e99cc8ff4",
                     "x-checker-data": {
                         "type": "gnome",
-                        "name": "glycin"
+                        "name": "glycin",
+                        "stable-only": true
                     }
                 }
             ]
@@ -62,7 +63,8 @@
                     "sha256": "e4b162679af24c7e96ee6e22b47d5ff0da96e0a0f616d13aeb1207c609f89483",
                     "x-checker-data": {
                         "type": "gnome",
-                        "name": "snapshot"
+                        "name": "snapshot",
+                        "stable-only": true
                     }
                 }
             ]
