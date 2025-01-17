@@ -38,6 +38,8 @@
             "buildsystem": "meson",
             "config-opts": [
                 "-Dlibglycin=false",
+                "-Dintrospection=false",
+                "-Dvapi=false",
                 "-Dtests=false"
             ],
             "sources": [
