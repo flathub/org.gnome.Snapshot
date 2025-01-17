@@ -34,7 +34,7 @@
     ],
     "modules": [
         {
-            "name": "glycin-loaders",
+            "name": "glycin",
             "buildsystem": "meson",
             "config-opts": [
                 "-Dlibglycin=false",
