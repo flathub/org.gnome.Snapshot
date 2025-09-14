@@ -4,8 +4,7 @@
     "runtime-version": "49",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
-        "org.freedesktop.Sdk.Extension.rust-stable",
-        "org.freedesktop.Sdk.Extension.llvm20"
+        "org.freedesktop.Sdk.Extension.rust-stable"
     ],
     "command": "snapshot",
     "finish-args": [
@@ -18,7 +17,7 @@
         "--socket=wayland"
     ],
     "build-options": {
-        "append-path": "/usr/lib/sdk/rust-stable/bin:/usr/lib/sdk/llvm20/bin"
+        "append-path": "/usr/lib/sdk/rust-stable/bin"
     },
     "cleanup": [
         "/include",
