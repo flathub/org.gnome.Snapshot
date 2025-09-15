@@ -44,6 +44,10 @@
                         "type": "gnome",
                         "name": "snapshot"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "patches/0001-metainfo-Fix-typo-in-release.patch"
                 }
             ]
         }
